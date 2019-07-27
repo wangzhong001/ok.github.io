@@ -21,7 +21,9 @@
        		height:10px
        	}
        	.hallo{
-       	border: 1px solid black;
+       		border: 1px solid black;
+		width: 300px;
+    		float: left;
        	}
        	#age{
        		width:100px
@@ -38,6 +40,8 @@
 			font-family: Microsoft YaHei; /* 设置字体 */
 			color: white; /* 字体颜色 */
 			font-size: 17px; /* 字体大小 */
+			margin-left: 20px;
+    			margin-top: 20px;
 		}
 		button:hover { /* 鼠标移入按钮范围时改变颜色 */
 			background: #5599FF;
@@ -80,7 +84,7 @@
     //   $("#age").html(sum);
     // });
     </script>
-    <title>王族</title>
+    <title>雄起</title>
 </head>
 <body>
     <script>
@@ -89,8 +93,7 @@
     // }
    
     </script>
-    <h1>王氏混泥土计算器</h1>
-     <a href="http://www.wangzhong.site/qiangmian.html">计算墙面</a>
+    <h1>混泥土计算器</h1>
     <div class="hallo">   柱形1 <br/>
     <span>柱长:</span><input type="text" id="long1"></input>m<br/>
     <span>柱宽:</span><input type="text" id="width1"></input>m<br/>
@@ -205,7 +208,7 @@
       <span>柱宽:</span><input type="text" id="swidth6"></input>m<br/>
       <span>柱高:</span><input type="text" id="shigh6"></input>m<br/>
       <span>数量:</span><input type="text" id="snum6"></input>个<br/></div>
-    <button onclick="jisuan()">计算总面积</button><br/>
+    <button onclick="jisuan()">计算总面积</button>
     总体积<span id="age"></span>立方米
 </body>
 </html>
